@@ -1,11 +1,5 @@
 {
     "scripts": {
-		"test": "jest",
-		"pre-commit": "npm run test",
-		"pre-push": "npm run test",
-    	"postinstall": "rm -rf .git/hooks/pre-push && node node_modules/husky/bin/install.js && rm -rf .git/hooks/pre-commit"
-    },
-    "devDependencies": {
-        "husky": "^3.0.5"
-    }
+    	"test": "jest"
+    }   
 }
