@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "husky": "^3.0.5"
+    },
+    "husky": {
+        "hooks": {
+          "pre-commit": "npm test",
+          "pre-push": "npm test",
+          "...": "..."
+        }
+    }
+}
